@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 import requests as req
 import json,sys,time
-import telepot
+#import telepot
 #先注册azure应用,确保应用有以下权限:
 #files:	Files.Read.All、Files.ReadWrite.All、Sites.Read.All、Sites.ReadWrite.All
 #user:	User.Read.All、User.ReadWrite.All、Directory.Read.All、Directory.ReadWrite.All
