@@ -15,10 +15,10 @@ import telepot
 
 path=sys.path[0]+r'/1.txt'
 num1 = 0
-token=str(sys.argv[1])
-chat_id=str(sys.argv[2])
-bot=telepot.Bot(token)
-fin=None
+#token=str(sys.argv[1])
+#chat_id=str(sys.argv[2])
+#bot=telepot.Bot(token)
+#fin=None
 
 def send(message):
     bot.sendMessage(chat_id,message, parse_mode=None, disable_web_page_preview=None, disable_notification=None, reply_to_message_id=None, reply_markup=None)
