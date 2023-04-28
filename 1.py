@@ -20,8 +20,8 @@ num1 = 0
 #bot=telepot.Bot(token)
 #fin=None
 
-def send(message):
-    bot.sendMessage(chat_id,message, parse_mode=None, disable_web_page_preview=None, disable_notification=None, reply_to_message_id=None, reply_markup=None)
+#def send(message):
+#    bot.sendMessage(chat_id,message, parse_mode=None, disable_web_page_preview=None, disable_notification=None, reply_to_message_id=None, reply_markup=None)
 
 def gettoken(refresh_token):
     headers={'Content-Type':'application/x-www-form-urlencoded'
